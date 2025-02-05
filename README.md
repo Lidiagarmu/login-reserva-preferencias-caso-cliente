@@ -35,18 +35,26 @@ Para cerrar sesión, presiona el botón Cerrar sesión.
 
 ## Estructura del Proyecto
 
-│── index.html # Página de login
-│── dashboard.html # Página principal tras login
-│── assets/
-│ ├── css/
-│ │ ├── styles.css # Estilos generales y modo oscuro
-│── script/
-│ ├── auth.js # Lógica de autenticación
-│ ├── theme.js # Modo oscuro
-│ ├── reserva.js # Gestión de reservas
-│ ├── logout.js # Cierre de sesión
-│── data/
-│ ├── users.js # Usuarios predefinidos
+LoginReservaApp/
+│
+├── assets/ # Carpeta para los recursos estáticos
+│ └── styles/ # Carpeta que contiene los archivos de estilo
+│ └── style.css # Archivo CSS que contiene los estilos principales de la aplicación
+│
+├── data/ # Carpeta para los datos de la aplicación
+│ └── users.js # Archivo JavaScript que contiene los usuarios predefinidos para el login
+│
+├── script/ # Carpeta para los scripts de la aplicación
+│ ├── auth.js # Archivo JavaScript que gestiona la autenticación de usuarios
+│ ├── logout.js # Archivo JavaScript que gestiona el cierre de sesión
+│ ├── reserva.js # Archivo JavaScript que gestiona las reservas de citas
+│ └── theme.js # Archivo JavaScript que permite cambiar entre modo oscuro y claro
+│
+├── templates/ # Carpeta para los archivos HTML de la interfaz
+│ ├── index.html # Archivo HTML principal donde se realiza el login
+│ └── dashboard.html # Archivo HTML donde se accede a la funcionalidad del dashboard
+│
+└── README.md # Este archivo, que contiene la información del proyecto
 
 ## Detalles Técnicos
 

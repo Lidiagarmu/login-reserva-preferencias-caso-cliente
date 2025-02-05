@@ -29,17 +29,19 @@
         <button id="logout-btn" class="btn btn-danger mt-3">Cerrar sesión</button>
     </div>
 
+
     <script>
         if (!localStorage.getItem("loggedUser")) {
             alert("Debes iniciar sesión primero.");
             window.location.href = "index.html";
         }
     </script>
-    
 
     <script src="../script/theme.js" type="module"></script>
     <script src="../script/reserva.js" type="module"></script>
     <script src="../script/logout.js" type="module"></script>
+    
+    
 </body>
 </html>
 

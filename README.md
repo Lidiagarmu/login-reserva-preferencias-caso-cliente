@@ -17,7 +17,8 @@ Cierre de sesión con eliminación de datos en localStorage.
 
 ## Instalación y Uso Clona este repositorio en tu equipo:
 
-git clone https://github.com/tu-usuario/tu-repo.gitAbre el archivo index.html en un navegador.
+git clone https://github.com/Lidiagarmu/login-reserva-preferencias-caso-cliente.git
+Abre el archivo index.html en un navegador.
 
 ## Inicia sesión con uno de los siguientes usuarios predefinidos:
 

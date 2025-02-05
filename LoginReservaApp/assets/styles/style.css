@@ -1,0 +1,75 @@
+/* Estilos predeterminados para el modo claro */
+body {
+    background-color: #f8f9fa;
+    color: #212529;
+    transition: background 0.3s, color 0.3s, border 0.3s;
+}
+
+
+.container {
+    max-width: 500px;
+    text-align: center;
+}
+
+
+/* Modo oscuro */
+.dark-mode {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+/* Formulario y botones en modo oscuro */
+.dark-mode input,
+.dark-mode button {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+}
+
+.dark-mode .btn-dark {
+    background-color: #555;
+    border-color: #444;
+}
+
+/* Botones y enlaces en modo claro */
+button, input, select, textarea {
+    transition: background 0.3s, color 0.3s, border 0.3s;
+}
+
+/* Botón de Modo Oscuro en modo oscuro */
+.dark-mode #modo-btn {
+    background-color: #555;
+    color: white;
+}
+
+/* Estilo de inputs y botones en modo claro */
+input, button {
+    border: 1px solid #ccc;
+}
+
+/* Mejorar la visibilidad de los campos de formulario */
+input[type="text"], input[type="date"], button {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+
+/* Hover para los campos de entrada (cuando pasas el ratón por encima) */
+input[type="text"]:hover, input[type="date"]:hover {
+    background-color: #e7f5ff;  /* Fondo azul claro al pasar el ratón */
+    border-color: #007bff;      /* Borde azul al pasar el ratón */
+}
+
+/* Hover en el botón */
+button:hover {
+    background-color: #28a745;  /* Fondo verde al pasar el ratón */
+    color: white;               /* Texto blanco */
+    border-color: #218838;      /* Borde verde más oscuro */
+}
+
+/* Estilo adicional cuando los inputs están enfocados (clic) */
+input[type="text"]:focus, input[type="date"]:focus {
+    background-color: #fff;     /* Fondo blanco */
+    border-color: #007bff;      /* Borde azul */
+    outline: none;              /* Elimina el borde de enfoque predeterminado del navegador */
+}
+

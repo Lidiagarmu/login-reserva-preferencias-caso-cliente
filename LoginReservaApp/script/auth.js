@@ -1,6 +1,5 @@
 // guarda el usuario y redirige a dashboard.html tras login.
 
-
 import users from "../data/users.js";
 
 document.getElementById("login-btn").addEventListener("click", function() {

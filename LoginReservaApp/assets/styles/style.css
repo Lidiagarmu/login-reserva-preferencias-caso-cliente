@@ -55,20 +55,20 @@ input[type="text"], input[type="date"], button {
 
 /* Hover para los campos de entrada (cuando pasas el ratón por encima) */
 input[type="text"]:hover, input[type="date"]:hover {
-    background-color: #e7f5ff;  /* Fondo azul claro al pasar el ratón */
-    border-color: #007bff;      /* Borde azul al pasar el ratón */
+    background-color: #e7f5ff;  
+    border-color: #007bff;      
 }
 
 /* Hover en el botón */
 button:hover {
-    background-color: #28a745;  /* Fondo verde al pasar el ratón */
-    color: white;               /* Texto blanco */
-    border-color: #218838;      /* Borde verde más oscuro */
+    background-color: #28a745; 
+    color: white;               
+    border-color: #218838;   
 }
 
 /* Estilo adicional cuando los inputs están enfocados (clic) */
 input[type="text"]:focus, input[type="date"]:focus {
-    background-color: #fff;     /* Fondo blanco */
-    border-color: #007bff;      /* Borde azul */
-    outline: none;              /* Elimina el borde de enfoque predeterminado del navegador */
+    background-color: #fff;     
+    border-color: #007bff;    
+    outline: none;          
 }

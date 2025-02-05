@@ -15,9 +15,12 @@ Modo oscuro configurable y persistente.
 Formulario de reserva de citas con validación de fechas.
 Cierre de sesión con eliminación de datos en localStorage.
 
-## Instalación y Uso Clona este repositorio en tu equipo:
+## Instalación y Uso
+
+Clona este repositorio en tu equipo:
 
 git clone https://github.com/Lidiagarmu/login-reserva-preferencias-caso-cliente.git
+
 Abre el archivo index.html en un navegador.
 
 ## Inicia sesión con uno de los siguientes usuarios predefinidos:
@@ -30,7 +33,7 @@ Tras el inicio de sesión, serás redirigido al dashboard.html, donde podrás ca
 
 Para cerrar sesión, presiona el botón Cerrar sesión.
 
-## Estructura del Proyectoproject-root/
+## Estructura del Proyecto
 
 │── index.html # Página de login
 │── dashboard.html # Página principal tras login
